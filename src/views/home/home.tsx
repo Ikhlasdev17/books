@@ -9,7 +9,10 @@ const Home = () => {
 	const navigate = useNavigate()
 
 	useEffect(() => {
-		if (!isFetching && !(data || localStorage.getItem('userKey'))) {
+		if (
+			!isFetching &&
+			!(data?.data?.secret || localStorage.getItem('userKey'))
+		) {
 			navigate('/authorization', { replace: true })
 		}
 	}, [])
