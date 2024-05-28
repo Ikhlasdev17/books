@@ -15,7 +15,7 @@ const Home = () => {
 		) {
 			navigate('/authorization', { replace: true })
 		}
-	}, [])
+	}, [isFetching])
 
 	return (
 		<Container maxWidth={'xl'}>
