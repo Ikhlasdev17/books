@@ -1,0 +1,13 @@
+.authForm {
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+
+	.authFormInput {
+		margin-bottom: 12px;
+	}
+
+	.authFormBtn {
+		margin-top: 12px;
+	}
+}

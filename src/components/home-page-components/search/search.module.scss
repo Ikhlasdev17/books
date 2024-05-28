@@ -1,0 +1,20 @@
+.homeSearchLabel {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	padding: 0 24px;
+
+	i {
+		font-size: 24px;
+		display: flex;
+		align-items: center;
+		color: #000;
+	}
+
+	.homeSearchInput {
+		padding: 18px 6px;
+		border: none;
+		outline: none;
+		font-size: 18px;
+	}
+}
